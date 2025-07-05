@@ -3,7 +3,7 @@ resource "azurerm_resource_group" "ExampleRG" {
     location = "East US"
 }
 resource "azurerm_storage_account" "ExampleStorageAccount" {
-    name                     = "examplestorageacct"
+    name                     = "STGACCT1"
     resource_group_name      = azurerm_resource_group.ExampleRG.name
     location                 = azurerm_resource_group.ExampleRG.location
     account_tier             = "Standard"
