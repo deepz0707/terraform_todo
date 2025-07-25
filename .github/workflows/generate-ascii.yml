@@ -4,7 +4,7 @@ on: push
 
 jobs:
   ascii_job:
-    runs-on: deepz
+    runs-on: self-hosted
     steps:
     - name: Checkout Repo
       uses: actions/checkout@v4
